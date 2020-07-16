@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This is a discovery project of OS Developement
+This is a discovery project about OS Developement
 
 The documentation I use : [osDev](https://wiki.osdev.org)
 
-I plan to rebuild everything on this except XORG and everything that is referenced inside `stddef.h` and `stdint.h`
+I plan to rebuild everything on this except XORG and everything that is referenced inside of `stddef.h` and `stdint.h`
 
 ## Running the "OS"
 
@@ -14,7 +14,7 @@ I plan to rebuild everything on this except XORG and everything that is referenc
 
 To use this OS the first thing you need is a cross compiler
 
-I would highly recommend you to use [i686-elf from GCC](https://wiki.osdev.org/GCC_Cross-Compiler)
+I would highly recommend you to use [i686-elf GCC](https://wiki.osdev.org/GCC_Cross-Compiler)
 
 If you want to use something else please make sure to remove in `kernel.c` :
 
@@ -27,7 +27,7 @@ If you want to use something else please make sure to remove in `kernel.c` :
 ```
 And to change it by what you prefer but keep in mind that the project will keep with a 32bit UNIX like kernel
 
-To compile everything make sure to i386-elf and run :
+To compile everything make sure to have i386-elf and run :
 
 ```sh
 i686-elf-gcc -std=gnu99 -ffreestanding -g -c start.s -o start.o
