@@ -6,7 +6,7 @@ This is a discovery project of OS Developement
 
 The documentation I use : [osDev](https://wiki.osdev.org)
 
-I plan to rebuild everything on this except XORG everything that is referenced inside `stddef.h` and `stdint.h`
+I plan to rebuild everything on this except XORG and everything that is referenced inside `stddef.h` and `stdint.h`
 
 ## Running the "OS"
 
