@@ -1,5 +1,7 @@
 # HelOS
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b8b189063ac4b48b28ba2d22ed53825)](https://app.codacy.com/manual/mattisdalleau/HelOS?utm_source=github.com&utm_medium=referral&utm_content=Heliferepo/HelOS&utm_campaign=Badge_Grade_Dashboard)
+
 ## Introduction
 
 This is a discovery project about OS Developement
